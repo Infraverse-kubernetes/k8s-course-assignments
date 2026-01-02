@@ -2,8 +2,6 @@
 
 در این جلسه به بررسی عمیق **API Server** به‌عنوان قلب Control Plane در Kubernetes پرداخته شد و مسیر کامل پردازش درخواست‌ها، امنیت، و ارتباط با etcd بررسی گردید.
 
----
-
 ## 📘 Topics Covered
 
 ### Core Concepts
@@ -28,31 +26,25 @@
 - gRPC communication with etcd
 - etcd request batching
 
----
+## 🎯 Practical Assignments
 
-## 🎯 تکالیف عملی
-
-### تکلیف ۱: Deployment و etcd Backup
+### Assignment 1: Deployment and etcd Backup
 
 1. یک Deployment موجود (nginx) را بررسی کنید
 2. از etcd بکاپ بگیرید
 3. Deployment را حذف کنید
 4. تغییرات را در etcd بررسی کنید
 
-### تکلیف ۲: بررسی رفتار Static Pod
+### Assignment 2: Static Pod Behavior Review
 
 1. با استفاده از `kubectl delete pod` سعی کنید API Server Pod را حذف کنید
 2. مشاهده کنید که Pod دوباره به‌صورت خودکار ساخته می‌شود
 3. دلیل این رفتار را توضیح دهید (Static Pod)
 4. همچنین ولیدیت کنید که این پاد پاک نمیشود در اون لحظه
 
----
-
-## 📂 فایل‌های مرجع
+## 📂 Reference Files
 
 👉 [`k8s-resources/`](./k8s-resources)
-
----
 
 ## 📚 Self-Study Topics
 
